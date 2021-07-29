@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    /> -->
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome  -->
+    <script
+      src="https://kit.fontawesome.com/42318fa5e7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- slick css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div
+        class="container-fluid px-0 d-flex flex-sm-column flex-md-row flex-wrap"
+      >
+        <div
+          class="col-md-12 mb-12 text-center sm-order-2 order-md-0 md-screen-header"
+        >
+          <h6 class="tag-line pt-3">
+            Rent what you need in affordable weekly payments.<strong
+              >The smiles come free.</strong
+            >
+          </h6>
+        </div>
+        <!-- Solid divider -->
+        <div
+          class="col-md-12 mb-12 text-center sm-order-1 order-sm-1 md-screen-header"
+        >
+          <hr class="solid devider" />
+        </div>
+        <div class="container col-md-10 sm-order-0 order-md-2">
+          <div
+            class="row my-4 align-items-center d-flex flex-sm-row flex-wrap sm-screen-flex-header"
+          >
+            <!-- hamburger -->
+            <div class="d-block d-md-none col-3 sm-order-0">
+              <button
+                class="navbar-toggler toggler-example"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent1"
+                aria-controls="navbarSupportedContent1"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="dark-blue-text"
+                  ><i class="fas fa-bars fa-1x"></i
+                ></span>
+              </button>
+            </div>
+
+            <!-- logo -->
+            <div class="col-md-3 col-sm-12 text-center sm-order-3">
+              <img
+                src="./assets/img/1st-Choice-Logo-transparent.png"
+                class="img-fluid"
+                alt="Responsive image"
+              />
+            </div>
+            <!-- mobile devider -->
+            <div class="d-block d-md-none col-sm-12 sm-order-4 text-center">
+              <hr class="solid devider sm-devider" />
+            </div>
+            <!-- mobile header line -->
+            <div class="d-block d-md-none col-sm-12 sm-order-5 text-center">
+              <h6 class="tag-line pt-3">
+                Rent what you need in affordable weekly payments.<strong
+                  >The smiles come free.</strong
+                >
+              </h6>
+            </div>
+            <!-- small image -->
+            <div class="col-md-1 col-4 text-center sm-order-1">
+              <img
+                src="./assets/img/australian-family-owned-trans-96x48.png"
+                class="img-fluid h-50 height-sm-7"
+                alt="Responsive image"
+              />
+            </div>
+            <!-- search box -->
+            <div class="col-md-4 col-sm-4 text-center sm-order-7">
+              <div class="input-group">
+                <input
+                  class="form-control p-3 border-right-0 border search-box"
+                  type="search"
+                  placeholder="Search over 500+ products"
+                  id="example-search-input"
+                />
+                <span class="input-group-append">
+                  <button
+                    class="btn btn-outline-secondary border-left-0 border search-btn"
+                    type="button"
+                  >
+                    <i class="fa fa-search"></i>
+                  </button>
+                </span>
+              </div>
+            </div>
+            <!-- request to call back button -->
+            <div class="col-md-3 col-sm-4 text-center sm-order-6">
+              <button class="btn quicksand-ft-bold p-3 mid-btn yellow-txt" type="button">
+                Request a call back
+              </button>
+            </div>
+            <!-- cart icon button -->
+            <div class="col-md-1 col-3 text-left sm-order-1">
+              <button type="button" class="btn btn-cart">
+                <i class="fas fa-shopping-cart"></i>
+                3
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar -->
+      <div class="container-fluid p-0 bg-white sticky-top navbar-fixed-top">
+        <nav class="navbar navbar-expand-lg bg-white ">
+        <div class="container col-md-10 p-0">
+          
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="navbar-brand" href="#"
+                  ><img
+                    src="./assets/img/package-deal.png"
+                    class="img-fluid"
+                    alt="package deal image in nav bar menu"
+                    width="100"
+                    height="30"
+                /></a>
+
+                <a class="nav-item nav-link active" href="#"
+                  >Kitchen Appliances <span class="sr-only">(current)</span></a
+                >
+                <a class="nav-item nav-link" href="#">Laundry & Cleaning</a>
+                <a class="nav-item nav-link" href="#">Computers & Gaming</a>
+                <a class="nav-item nav-link" href="#">Tv & Radio</a>
+                <a class="nav-item nav-link" href="#">Phones & Cameras</a>
+                <a class="nav-item nav-link" href="#">Heating & Cooling</a>
+                <a class="nav-item nav-link" href="#">Lawncare & Tools</a>
+                <a class="nav-item nav-link" href="#">Kids & Oudoor</a>
+                <a class="nav-item nav-link" href="#">Furniture & Beds</a>
+                <a class="nav-item nav-link" href="#">Mobility & Fitness</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Solid divider menu-->
+
+      <hr class="solid devider menu-devider md-screen-header" />
+    </header>
+    <!-- /header -->
+    <!-- main -->
+    <main>
+      <section>
+        <div class="container-fluid">
+          <div class="container col-md-10">
+            <div class="row mt-5">
+              <div class="col-10 thumb">
+                <img
+                  class="img-thumbnail img-fluid"
+                  src="./assets/img/pkg-deal-red-lng.JPG"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="container col-md-10">
+            <div class="site-slider">
+              <div class="row slider-one">
+                <div class="mx-auto col-md-2 col-4 mt-5">
+                  <div class="equal-height-img">
+                    <img
+                      class="mx-auto img-thumbnail img-fluid"
+                      src="./assets/img/coco-double-bed.jpg"
+                    />
+                  </div>
+
+                  <div class="card-body text-center mx-auto">
+                    <div class="cvp">
+                      <h3 class="short-display-headline-h3 dark-gray-txt">
+                        1St Choice
+                      </h3>
+                      <h3 class="short-display-headline-h3 grey-txt">
+                        Amalfi Queen Bed - Pearl
+                      </h3>
+                      <h4 class="short-display-headline-h4 blue-txt">
+                        $20.00 per week / 2 year
+                      </h4>
+                      <br />
+                      <button
+                        class="btn quicksand-ft-bold p-3 sml-btn white-txt"
+                        type="button"
+                      >
+                        Rent now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mx-auto col-md-2 col-4 mt-5">
+                  <div class="equal-height-img"></div>
+                  <img
+                    class="mx-auto img-thumbnail img-fluid"
+                    src="./assets/img/coco-double-bed.jpg"
+                  />
+                  <div class="card-body text-center mx-auto">
+                    <div class="cvp">
+                      <h3 class="short-display-headline-h3 dark-gray-txt">
+                        1St Choice
+                      </h3>
+                      <h3 class="short-display-headline-h3 grey-txt">
+                        Brookmont Cofee Table
+                      </h3>
+                      <h4 class="short-display-headline-h4 blue-txt">
+                        $15.00 per week / 2 year
+                      </h4>
+                      <br />
+                      <button
+                        class="btn quicksand-ft-bold p-3 sml-btn white-txt"
+                        type="button"
+                      >
+                        Rent now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mx-auto col-md-2 col-4 mt-5">
+                  <div class="equal-height-img"></div>
+                  <img
+                    class="mx-auto img-thumbnail img-fluid"
+                    src="./assets/img/coco-tv.jpg"
+                  />
+                  <div class="card-body text-center mx-auto">
+                    <div class="cvp">
+                      <h3 class="short-display-headline-h3 dark-gray-txt">
+                        1St Choice
+                      </h3>
+                      <h3 class="short-display-headline-h3 grey-txt">
+                        Cassie 7pce Dining Suite
+                      </h3>
+                      <h4 class="short-display-headline-h4 blue-txt">
+                        $19.00 per week / 2 year
+                      </h4>
+                      <br />
+                      <button
+                        class="btn quicksand-ft-bold p-3 sml-btn white-txt"
+                        type="button"
+                      >
+                        Rent now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mx-auto col-md-2 col-4 mt-5">
+                  <div class="equal-height-img"></div>
+                  <img
+                    class="mx-auto img-thumbnail img-fluid"
+                    src="./assets/img/coco-tv.jpg"
+                  />
+                  <div class="card-body text-center mx-auto">
+                    <div class="cvp">
+                      <h3 class="short-display-headline-h3 dark-gray-txt">
+                        1St Choice
+                      </h3>
+                      <h3 class="short-display-headline-h3 grey-txt">
+                        Cassie 7pce Dining Suite
+                      </h3>
+                      <h4 class="short-display-headline-h4 blue-txt">
+                        $19.00 per week / 2 year
+                      </h4>
+                      <br />
+                      <button
+                        class="btn quicksand-ft-bold p-3 sml-btn white-txt"
+                        type="button"
+                      >
+                        Rent now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="mx-auto col-md-2 col-4 mt-5">
+                  <div class="equal-height-img"></div>
+                  <img
+                    class="mx-auto img-thumbnail img-fluid"
+                    src="./assets/img/coco-tv.jpg"
+                  />
+                  <div class="card-body text-center mx-auto">
+                    <div class="cvp">
+                      <h3 class="short-display-headline-h3 dark-gray-txt">
+                        1St Choice
+                      </h3>
+                      <h3 class="short-display-headline-h3 grey-txt">
+                        Cassie 7pce Dining Suite
+                      </h3>
+                      <h4 class="short-display-headline-h4 blue-txt">
+                        $19.00 per week / 2 year
+                      </h4>
+                      <br />
+                      <button
+                        class="btn quicksand-ft-bold p-3 sml-btn white-txt"
+                        type="button"
+                      >
+                        Rent now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- /main -->
+    <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
